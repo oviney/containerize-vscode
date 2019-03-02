@@ -1,0 +1,17 @@
+version: 2
+jobs:
+  build:
+    # Setup the machine with the CircleCI image
+    machine:
+      image: circleci/classic:latest
+    steps:  # do stuff
+      - checkout
+      - run:
+              name:  Do something
+              command:  echo "Do something"
+      - run:
+              name:  Do something else
+              command:  echo "Do something else"
+      - run:
+              name:  Build docker image
+              command:  docker build -t oviney/containerized-vscode .
