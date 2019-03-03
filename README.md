@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/oviney/containerize-vscode.svg?style=svg)](https://circleci.com/gh/oviney/containerize-vscode)
+[![CircleCI](https://circleci.com/gh/oviney/containerized-vscode.svg?style=svg)](https://circleci.com/gh/oviney/containerized-vscode)
 
-# containerize-vscode
+# containerized-vscode
 containerize-vscode
